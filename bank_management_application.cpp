@@ -1,24 +1,3 @@
-/*
-    Bank Management Application
-    -----------------------------
-    A console-based banking system in C++ demonstrating object-oriented
-    programming (classes, encapsulation) and persistent file handling
-    (binary file: accounts.dat).
-
-    Features:
-      - Create Account
-      - Deposit
-      - Withdraw
-      - Balance Inquiry
-      - Display All Accounts
-      - Modify Account
-      - Close (Delete) Account
-      - Simple PIN-based authentication for sensitive operations
-
-    Compile:  g++ -o bank bank_management_application.cpp
-    Run:      ./bank
-*/
-
 #include <iostream>
 #include <fstream>
 #include <iomanip>
